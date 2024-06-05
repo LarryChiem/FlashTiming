@@ -14,3 +14,12 @@ https://bitbucket.org/flashtiming/ft200/branches/?sort=target.date
 Clean up old branches. Get the most up-to-date branch up on master.
 
 
+__________________________________
+What I did:
+6/5/2024
+Went to Sally and talked to her about her changes on her computer. She was on developmentBranch and stashed over 6 months of changes and never pushed it. Got her to push up her branch and changes. 
+Then created on Sally's computer her own branch, sallys_ui, so any changes she made was off her own branch. She doesn't want to touch bitbucket or git so she will go to Chris and I for pushing any of her changes up.
+
+I then went and made developmentBranch merge into master as master was old and hasn't been updated or have anything relevant since 2016...
+
+Deleted a few old branches that were older than 2023. 
