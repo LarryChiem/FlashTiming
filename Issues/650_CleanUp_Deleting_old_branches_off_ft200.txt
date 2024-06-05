@@ -1,0 +1,16 @@
+Expected Behavior
+Most Up-to-date branch should be on master. Each branch should have have a format:
+
+Use [ticket-id]--[short-description] as the branch name when creating a new feature branch. If a ticket doesn't exist, use a consistent keyword in place of a ticket ID. Suggested keywords include:
+
+NOTICKET: general purpose prefix for any time there is no ticket.
+0: An alternative general purpose prefix.
+HOTFIX: used for a branch containing a hotfix that does not have an associated ticket.
+Do not use forward slashes (/) in branch names as this can cause confusion and errors when trying to interact with branches sharing prefixes. For example, it is not possible to create a branch called new-homepage if another branch called new-homepage/fix-heading exists. This can also cause errors when pulling if a new branch conflicts with a local-only branch.
+
+Current Behavior
+https://bitbucket.org/flashtiming/ft200/branches/?sort=target.date
+
+Clean up old branches. Get the most up-to-date branch up on master.
+
+
